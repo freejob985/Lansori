@@ -1,0 +1,13 @@
+/* Add your custom styles here */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@300;400&display=swap');
+
+*{
+font-family: 'Noto Kufi Arabic', sans-serif;
+}
+body {
+  width: 571px;
+  height: auto;
+}
+.table-bordered {
+    border: 1px solid #fafdff;
+}

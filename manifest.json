@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Order Data Extension",
+  "version": "1.1",
+  "description": "Display order data in a table",
+  "permissions": ["activeTab", "storage", "http://localhost/","notifications", "storage", "audio"],
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "web_accessible_resources": [
+    "jquery-3.6.0.min.js"
+  ]
+}
